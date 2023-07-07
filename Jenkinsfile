@@ -1,6 +1,7 @@
 @Library('roboshop-shared-library') _
 
 env.COMPONENT="catalogue"
+env.COMPONENT="nodejs"
 nodejs()
 
 
