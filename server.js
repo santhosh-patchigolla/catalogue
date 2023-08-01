@@ -153,7 +153,7 @@ function mongoConnect() {
     var client = mongoClient.connect(mongoURL,
       {
         // Mutable & Immutable
-        //tlsCAFile: `/home/roboshop/catalogue/rds-combined-ca-bundle.pem` //Specify the DocDB; cert
+        //tlsCAFile: `/home/roboshop/catalogue/global-bundle.pem` //Specify the DocDB; cert
         // Container
         tlsCAFile: `/home/roboshop/rds-combined-ca-bundle.pem` //Specify the DocDB; cert
     }, (error, client) => {
